@@ -1,0 +1,21 @@
+{
+  "name": "party-button-fragment",
+  "private": true,
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite build && vite preview",
+    "deploy": "pnpm build && wrangler deploy"
+  },
+  "devDependencies": {
+    "@types/canvas-confetti": "^1.9.0",
+    "typescript": "~5.7.2",
+    "vite": "^6.2.0",
+    "wrangler": "^4.0.0"
+  },
+  "dependencies": {
+    "canvas-confetti": "^1.9.3"
+  }
+}

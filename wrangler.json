@@ -1,0 +1,9 @@
+{
+  "account_id": "70dde660886a968f28d1f701048a0898",
+  "name": "party-button-fragment",
+  "compatibility_date": "2025-03-13",
+  "assets": {
+    "directory": "./dist/",
+    "not_found_handling": "single-page-application"
+  }
+}
