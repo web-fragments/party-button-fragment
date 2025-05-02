@@ -1,14 +1,8 @@
 import './style.css'
 
 document.addEventListener('DOMContentLoaded', bootstrap);
-setTimeout(bootstrap, 100);
-
-let bootstrapped = false;
 
 function bootstrap() {
-  if (bootstrapped) return;
-  bootstrapped = true;
-
   document.querySelector<HTMLButtonElement>('button')?.addEventListener('hover', () => {
     import('canvas-confetti');
   });
